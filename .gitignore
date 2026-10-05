@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+.DS_Store
+report/
+reports/
+skill-usage-report/
+*.csv
+counts.json
+*.jsonl
+*.db*
+*.sqlite*
+*.vscdb*

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-skill-counts"
+version = "0.1.0"
+description = "Count recorded skill activations and file reads across local agent histories."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "xlyk" }]
+dependencies = []
+classifiers = [
+  "Environment :: Console",
+  "Programming Language :: Python :: 3",
+  "Topic :: Utilities",
+]
+
+[project.scripts]
+agent-skill-counts = "agent_skill_counts:main"
+
+[project.urls]
+Repository = "https://github.com/xlyk/agent-skill-counts"
+Issues = "https://github.com/xlyk/agent-skill-counts/issues"
+
+[tool.setuptools]
+py-modules = ["agent_skill_counts"]
